@@ -1,3 +1,5 @@
+package com.twu.biblioteca;
+
 public class Right_Triangle {
     public static void main(String[] args){
         int rows = 3;
