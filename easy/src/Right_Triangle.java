@@ -4,12 +4,11 @@ public class Right_Triangle {
         int x = 1;
 
         while(rows > 0) {
-            String line = "";
             for(int i = 0; i < x; i++) {
-                line += "*";
+                System.out.print("*");
             }
+            System.out.println("");
             x++; rows--;
-            System.out.println(line);
         }
     }
 }
